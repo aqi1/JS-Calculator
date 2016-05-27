@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(40, 40, 40);
+}
+
+.theFrame {
+  margin: 0 auto;
+  width: 300px;
+  height: 320px;
+  border: 5px solid gray;
+  border-radius: 10px;
+  background-color: rgb(220, 220, 220);
+  background: linear-gradient(grey, white, grey);
+}
+
+.LCD {
+  border-top: 2px solid rgb(80,80,80);
+  border-left: 2px solid rgb(80,80,80);
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  display: block;
+  width: 227px;
+  height: 30px;
+  margin: 5px auto;
+  margin-bottom: 12px;
+  padding: 4px 1px;
+  background-color: white;
+}
+
+#result {
+  text-align: right;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.theFrame h4, .theFrame p {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.buttonGrid {
+  width: 236px;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.calcButton {
+  display: inline-block;
+  width: 55px;
+  margin: 5px auto;
+  border-bottom: 2px solid rgb(80, 80, 80);
+  border-right: 2px solid rgb(80, 80, 80);
+  border-radius: 8px;
+  box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.4);
+  background-color: rgb(150, 150, 150);
+  font-family: "Russo One", sans-serif;
+}
+
+.clearAll {
+  background-color: rgb(255, 120, 120);
+}
+
+#zero {
+  width: 114px;
+}
